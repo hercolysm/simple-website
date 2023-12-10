@@ -1,0 +1,17 @@
+.Footer {
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    height: 100px;
+}
+
+.Footer > div {
+    width: 87%;
+    margin: 0 auto;
+}
+
+.Footer > div > p {
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+}

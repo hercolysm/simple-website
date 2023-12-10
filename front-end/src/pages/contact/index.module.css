@@ -1,0 +1,48 @@
+.Contact > h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.Contact > p {
+    text-align: center;
+    margin-top: 25px;
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.Contact > button {
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    margin: 50px auto;
+    padding: 10px 32px;
+    font-size: 16px;
+    background-color: #455a64;
+    color: #fff;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 3px;
+}
+
+.Contact > button > svg {
+    margin-right: 5px;
+}
+
+.Contact > h3 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.Contact > ul {
+    list-style: none;
+    margin: 25px 0px 50px 0px;
+}
+
+.Contact > ul > li {
+    text-align: center;
+}
+
+.Contact > ul > li > a {
+    text-decoration: none;
+}

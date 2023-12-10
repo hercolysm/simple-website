@@ -1,0 +1,33 @@
+.SectionAboutUs {
+    width: 87%;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.SectionAboutUs:nth-child(even) {
+    flex-direction: row;
+}
+
+.SectionAboutUs:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+.SectionAboutUsText {
+    width: 50%;
+    text-align: center;
+    padding: 0 25px;
+}
+
+.SectionAboutUsImg {
+    width: 50%;
+    padding: 0 25px;
+}
+
+.SectionAboutUsImg > img {
+    max-width: 100%;
+    height: auto;
+}
